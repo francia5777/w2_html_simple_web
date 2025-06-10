@@ -18,19 +18,105 @@
     Create a brief about section with some text explaining what the page is about.
     Include an image from the "assets" folder (fruit.jpg). 
   -->
-  <main>
-    <section class="about-section">
-      <h2>About</h2>
-      <p>This page contains fruits with their color, taste and weight. Below is a list of fruits ordered by weight, and the ones with the highest and lowest weight are displayed in the table.</p>
-    </section>
-    <section class="fruit-information">
-      <h3>Fruit Information</h3>
-      <p>Fruits play an essential role in maintaining a balanced diet. They are packed with vitamins, <strong>fiber</strong>, and <strong>antioxydants</strong>, all of which help in boosting the immune system. They offer a variety of flavors and nutrients to keep the body healthy. Learn more about the health benefits of fruits <a href="#">here</a></p>
-      <hr>
-      <p><strong>Fruit Fact:</strong>Fruit comes in many colors and can be enjoyed <u>fresh</u>, <u>juiced</u>, <u>baked</u> or <u>dried</u>, offering endless delicious options</p>
-      <img src="fruit.jpg" alt="Fruits">
-    </section>
-  </main>
+
+  <!-- Fruit List Section -->
+  
+  <div>
+    <!-- 
+      Create an unordered list (`<ul>`) to display a list of five fruits: 
+      Apple, Banana, Orange, Strawberry, Grapes.
+      Use `<li>` tags for each fruit.
+    -->
+        <h3>  fruit List</h3>
+        <ul>
+          <li><strong>Apple</strong>
+            <ul>
+              <li>Taste:Sweet</li>
+              <li>Color:Red/Green</li>
+              <li>Weight:182g</li>
+            </ul>
+          </li>
+          <li><strong>Strawberry</strong>
+            <ul>
+              <li>Taste:Sour</li>
+              <li>Color:Red</li>
+              <li>Weight:12g</li>
+            </ul>
+          </li>
+          <li><strong>Grapes</strong>
+            <ul>
+              <li>Taste:Sweet</li>
+              <li>Color:Purple/Green</li>
+              <li>Weight:5g (Per grape)</li>
+            </ul>
+          </li>
+          <li><strong>Banana</strong>
+            <ul>
+              <li>Taste:Sweet</li>
+              <li>Color:Yellow</li>
+              <li>Weight:118g</li>
+            </ul>
+          </li>
+          <li><strong>Orange</strong>
+            <ul>
+              <li>Taste:Sour</li>
+              <li>Color:Orang</li>
+              <li>Weight:131g</li>
+            </ul>
+          </li>
+        </ul>
+        
+
+  </div>
+
+  <!-- Ordered List Section (Fruits Categorized by Weight) -->
+  
+  <div>
+    <!-- 
+      Create an ordered list (`<ol>`) and list the fruits in order from 
+      heaviest to lightest by weight.
+    -->
+      <h3>Fruits categorized by weight</h3>
+      <ol>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Banana</li>
+        <li>Strawberry</li>
+        <li>Grapes</li>
+      </ol>
+  </div>
+
+  <!-- Table Section (Heaviest and Lightest Fruits) -->
+  <!-- 
+    Create a table with three columns:
+    - One for the fruit Name
+    - One for the fruit Color.
+    - One for the fruit Weight (g).
+    Add appropriate rows and data for each.
+  -->
+    <h3>Fruits with the Most and the least Weight</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Fruit</th>
+          <th>Color</th>
+          <th>Weight</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Apple</td>
+          <td>Red/Green</td>
+          <td>182</td>
+        </tr>
+        <tr>
+          <td>Grapes</td>
+          <td>Purple/Green</td>
+          <td>5g (per grape)</td>
+        </tr>
+      </tbody>
+    </table>
+
   
 
 </body>
