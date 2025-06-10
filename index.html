@@ -1,58 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple HTML Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+    
 </head>
-
 <body>
-  <!-- Header Section -->
-  <!-- 
-    Add the heading "Welcome to My Fruit List Web Page!" here.
-    This section should introduce the page to the user. 
-  -->
 
-  <!-- About Section -->
-  <!-- 
-    Create a brief about section with some text explaining what the page is about.
-    Include an image from the "assets" folder (fruit.jpg). 
-  -->
+    <h1>Welcome to My Fruit List Web Page!</h1>
 
-  <!-- Fruit List Section -->
-  
-  <div>
-    <!-- 
-      Create an unordered list (`<ul>`) to display a list of five fruits: 
-      Apple, Banana, Orange, Strawberry, Grapes.
-      Use `<li>` tags for each fruit.
-    -->
-  </div>
+    <h2>About</h2>
+    <p>This page lists various fruits with their color, taste and weight. Below is a list of fruits, ordered by weight, and the ones with the highest and lowest weight are displayed in the table.</p>
 
-  <!-- Ordered List Section (Fruits Categorized by Weight) -->
-  
-  <div>
-    <!-- 
-      Create an ordered list (`<ol>`) and list the fruits in order from 
-      heaviest to lightest by weight.
-    -->
-  </div>
+    <h2>Fruit Information</h2>
+    <p>Fruits play an essential role in maintaining a balanced diet. They are packed with vitamins, <span style="font-weight: bold;">fiber</span>, and <span style="font-weight: bold;">antioxidants</span>, all of which help in boosting the immune system. They offer a variety of flavors and nutrients to keep the body healthy. Learn more about the health benefits of fruits <a href="#">here</a>.</p>
+    <hr>
+    <p><span style="font-weight: bold;">Fun Fact:</span> Fruits come in many colors and can be enjoyed <span style="text-decoration: underline;">fresh</span>, <span style="text-decoration: underline;">juiced</span>, <span style="text-decoration: underline;">baked</span>, or <span style="text-decoration: underline;">dried</span>, offering endless delicious options!</p>
 
-  <!-- Table Section (Heaviest and Lightest Fruits) -->
-  <!-- 
-    Create a table with three columns:
-    - One for the fruit Name
-    - One for the fruit Color.
-    - One for the fruit Weight (g).
-    Add appropriate rows and data for each.
-  -->
+    <img src="fruit.jpg" alt="Assorted Fruits" class="fruit-image">
+    <h3>Fruits List</h3>
+    <ul>
+        <li><strong>Apple</strong>
+            <ul>
+                <li>Taste: Sweet</li>
+                <li>Color: Red/Green</li>
+                <li>Weight: 182g</li>
+            </ul>
+        </li>
+        <li><strong>Strawberry</strong>
+            <ul>
+                <li>Taste: Sour</li>
+                <li>Color: Red</li>
+                <li>Weight: 12g</li>
+            </ul>
+        </li>
+        <li><strong>Grapes</strong>
+            <ul>
+                <li>Taste: Sweet</li>
+                <li>Color: Purple/Green</li>
+                <li>Weight: 5g (per grape)</li>
+            </ul>
+        </li>
+        <li><strong>Banana</strong>
+            <ul>
+                <li>Taste: Sweet</li>
+                <li>Color: Yellow</li>
+                <li>Weight: 118g</li>
+            </ul>
+        </li>
+        <li><strong>Orange</strong>
+            <ul>
+                <li>Taste: Sour</li>
+                <li>Color: Orange</li>
+                <li>Weight: 131g</li>
+            </ul>
+        </li>
+    </ul>
 
-  <!-- Footer Section -->
-  <!-- 
-    Add a footer with a message: "Thanks for visiting! Stay healthy and enjoy fruits! :)"
-    This should appear at the bottom of the page.
-  -->
+    <h3>Fruits Categorized by weight</h3>
+    <ol>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Banana</li>
+        <li>Strawberry</li>
+        <li>Grapes</li>
+    </ol>
+
+    <h3>Fruit with the Most and the Least Weight</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Fruit</th>
+                <th>Color</th>
+                <th>Weight (g)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Apple</td>
+                <td>Red/Green</td>
+                <td>182</td>
+            </tr>
+            <tr>
+                <td>Grapes</td>
+                <td>Purple/Green</td>
+                <td>5g (per grape)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Thanks for visiting! Stay healthy and enjoy fruits!</p>
 
 </body>
-
 </html>
